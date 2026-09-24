@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Space — Feature Set</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-dot"></span> Product Insight</div>
+  <div class="topbar-label">Study Space · Feature Set</div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Study Space</div>
+    <nav>
+      <a class="active" href="#overview">Overview</a>
+      <a href="#features">Feature Set</a>
+      <a href="#workflow">Experience Flow</a>
+      <a href="#technical">Technical Distinction</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section class="hero" id="overview">
+      <div class="eyebrow">PRODUCT CONCEPT · STUDY AI</div>
+      <h1>Study Space</h1>
+      <p class="hero-subtitle">A contextual study environment built around the student's existing study material.</p>
+      <div class="hero-meta">
+        <span>Feature Set</span>
+        <span>•</span>
+        <span>AI + Knowledge Base</span>
+        <span>•</span>
+        <span>Device-accessible context</span>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-kicker">01 · FEATURE SET</div>
+      <div class="section-head">
+        <h2>The Subject Knowledge Base is the foundation.</h2>
+        <p>The source document positions the other AI capabilities as layers operating on top of the accumulated study context.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="card">
+          <div class="num">01</div>
+          <h3>Study Material Auto-Organization</h3>
+          <p>Study Space scans device-accessible study content, understands the subject/topic from the content, and organizes it into the relevant subject context.</p>
+        </article>
+
+        <article class="card featured">
+          <div class="num">02</div>
+          <h3>Subject Knowledge Base</h3>
+          <p>Each subject folder acts as a contextual knowledge base, allowing accumulated study material to be used collectively when answering questions or preparing for exams.</p>
+        </article>
+
+        <article class="card">
+          <div class="num">03</div>
+          <h3>AI Exam Preparation</h3>
+          <p>The concept uses the student's own study material for preparation, including the possibility of providing 2–3 years of question papers to identify important questions or prepare topic-wise.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section visual-section" id="workflow">
+      <div class="section-kicker">02 · EXPERIENCE FLOW</div>
+      <div class="section-head">
+        <h2>From scattered content to a study context.</h2>
+        <p>The visual in the source document presents three connected stages: collect & organize, understand & prepare, and manage study life.</p>
+      </div>
+
+      <button class="image-button" id="openImage" aria-label="Open source visual">
+        <img src="assets/study-space-source.png" alt="Study Space feature set source visual">
+        <span class="image-caption">Click to enlarge the source visual</span>
+      </button>
+
+      <div class="flow-grid">
+        <div class="flow-card">
+          <span>01</span>
+          <strong>Collect & Organize</strong>
+          <p>Bring device-accessible study content into an organized subject context.</p>
+        </div>
+        <div class="flow-card">
+          <span>02</span>
+          <strong>Understand & Prepare</strong>
+          <p>Use the accumulated subject context for AI-assisted study and preparation.</p>
+        </div>
+        <div class="flow-card">
+          <span>03</span>
+          <strong>Manage Study Life</strong>
+          <p>The source visual also shows scheduling, reminders and notification management around the study workflow.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="technical">
+      <div class="section-kicker">03 · KEY TECHNICAL DISTINCTION</div>
+      <div class="technical-layout">
+        <div>
+          <h2>Context should already be available to the AI.</h2>
+        </div>
+        <div class="technical-copy">
+          <p>The key distinction described in the source is that Study Space is intended to use <strong>device-accessible study context with user permission</strong>.</p>
+          <p>This is positioned against a workflow where the student repeatedly has to collect files and upload them into a separate AI application.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section takeaway">
+      <div class="section-kicker">04 · CORE IDEA</div>
+      <blockquote>“The Subject Knowledge Base is the foundation.”</blockquote>
+      <p>The concept therefore starts with building persistent subject context, with the other AI capabilities operating on top of that accumulated context.</p>
+    </section>
+
+    <footer>
+      <span>Study Space — Feature Set</span>
+      <span>Source: provided document</span>
+    </footer>
+  </main>
+</div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <button class="modal-close" id="closeImage">×</button>
+  <img src="assets/study-space-source.png" alt="Study Space source visual enlarged">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
